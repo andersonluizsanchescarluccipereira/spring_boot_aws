@@ -5,6 +5,7 @@ import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.dtos.CustomerResponseDTO;
 import com.ads.demo.application.ports.CustomerINPort;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
+@Tag(name = "Customers", description = "Customer opeartions relation")
 @RestController
 @RequestMapping("/v1/customers")
 public class CustomerControllerAdapter {
