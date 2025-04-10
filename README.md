@@ -103,7 +103,7 @@ mvn spring-boot:run -Dspring-boot.run.profiles=local
 
 ## 🧪 Testes com cURL
 
-### ➕ Criar pessoa
+### ➕ Criar customerEntity
 
 ```bash
 curl -X POST http://localhost:8080/pessoas \
