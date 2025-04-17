@@ -21,16 +21,16 @@ public class CustomerEntity {
         this.id = id;
     }
 
-    @DynamoDbAttribute("nome")
+    @DynamoDbAttribute("name")
     public String getName() {
         return name;
     }
 
-    public void setNome(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    @DynamoDbAttribute("idade")
+    @DynamoDbAttribute("age")
     public Integer getAge() {
         return age;
     }
