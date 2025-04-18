@@ -1,5 +1,8 @@
 package com.ads.demo.application.models.entity;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbAttribute;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey;
@@ -7,8 +10,14 @@ import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbParti
 @DynamoDbBean
 public class CustomerEntity {
 
+    @NotBlank
     private String id;
+
+    @NotBlank
     private String name;
+
+    @NotNull
+    @Positive
     private Integer age;
 
     @DynamoDbPartitionKey
@@ -16,7 +25,6 @@ public class CustomerEntity {
         return id;
     }
 
-    // os setters são obrigatórios pelo SDK
     public void setId(String id) {
         this.id = id;
     }
@@ -48,4 +56,3 @@ public class CustomerEntity {
         this.age = age;
     }
 }
-
