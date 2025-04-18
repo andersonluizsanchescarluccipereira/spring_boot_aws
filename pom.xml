@@ -83,6 +83,20 @@
 			<version>7.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>5.10.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-inline</artifactId>
+			<version>5.2.0</version> <!-- necessário para mock de métodos estáticos -->
+			<scope>test</scope>
+		</dependency>
+
 		<!-- Testes -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
