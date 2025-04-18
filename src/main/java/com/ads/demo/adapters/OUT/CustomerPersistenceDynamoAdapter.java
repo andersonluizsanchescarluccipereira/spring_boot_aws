@@ -1,6 +1,6 @@
-package com.ads.demo.adapters;
+package com.ads.demo.adapters.OUT;
 
-import com.ads.demo.adapters.helpers.CustomerPersistenceAdapterHelper;
+import com.ads.demo.adapters.IN.helpers.CustomerPersistenceAdapterHelper;
 import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.exceptions.CustomerPersistenceException;
 import com.ads.demo.application.models.entity.CustomerEntity;

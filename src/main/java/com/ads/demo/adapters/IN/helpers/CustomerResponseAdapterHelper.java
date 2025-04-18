@@ -1,11 +1,9 @@
-package com.ads.demo.adapters.helpers;
+package com.ads.demo.adapters.IN.helpers;
 
 import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.dtos.CustomerResponseDTO;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.chrono.ChronoLocalDate;
 
 public class CustomerResponseAdapterHelper {
     protected CustomerResponseAdapterHelper() throws IllegalAccessException {

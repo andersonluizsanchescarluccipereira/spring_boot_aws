@@ -173,3 +173,10 @@ Contribuições, dúvidas ou melhorias? Fique à vontade para abrir uma issue ou
 ---
 
 ## 🧡 Feito com dedicação para quem ama backend limpo, performático e preparado para cloud.
+
+```
+awslocal sqs send-message \
+  --queue-url http://localhost:4566/000000000000/minha-fila \
+  --message-body '{"id":"123","nome":"Maria SQS","idade":30}' \
+  --region ap-south-1
+```
