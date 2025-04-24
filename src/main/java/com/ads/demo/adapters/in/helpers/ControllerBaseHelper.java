@@ -1,10 +1,7 @@
-package com.ads.demo.adapters.IN.helpers;
+package com.ads.demo.adapters.in.helpers;
 
-import com.ads.demo.adapters.IN.CustomerControllerAdapter;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
-
-import java.util.logging.Logger;
 
 /**
  * Base para todas as controllers, fornecendo utilitários comuns.

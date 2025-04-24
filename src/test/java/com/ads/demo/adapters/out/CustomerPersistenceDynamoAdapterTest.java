@@ -1,4 +1,4 @@
-package com.ads.demo.adapters.OUT;
+package com.ads.demo.adapters.out;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,13 +12,9 @@ import software.amazon.awssdk.core.pagination.sync.SdkIterable;
 import software.amazon.awssdk.enhanced.dynamodb.*;
 import software.amazon.awssdk.enhanced.dynamodb.model.GetItemEnhancedRequest;
 import software.amazon.awssdk.enhanced.dynamodb.model.PageIterable;
-import software.amazon.awssdk.enhanced.dynamodb.model.PutItemEnhancedRequest;
 
 import java.util.List;
-import java.util.UUID;
-import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class CustomerPersistenceDynamoAdapterTest {

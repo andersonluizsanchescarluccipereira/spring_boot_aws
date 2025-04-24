@@ -1,4 +1,4 @@
-package com.ads.demo.adapters.IN.helpers;
+package com.ads.demo.adapters.in.helpers;
 
 import com.ads.demo.application.exceptions.CustomerPersistenceException;
 import org.junit.jupiter.api.Test;

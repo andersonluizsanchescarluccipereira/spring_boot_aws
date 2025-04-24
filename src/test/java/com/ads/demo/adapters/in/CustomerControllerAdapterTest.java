@@ -1,4 +1,4 @@
-package com.ads.demo.adapters.IN;
+package com.ads.demo.adapters.in;
 
 import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.facade.CustomerFacade;

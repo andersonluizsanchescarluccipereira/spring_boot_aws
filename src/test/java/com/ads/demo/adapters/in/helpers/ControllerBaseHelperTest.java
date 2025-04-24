@@ -1,4 +1,4 @@
-package com.ads.demo.adapters.IN.helpers;
+package com.ads.demo.adapters.in.helpers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

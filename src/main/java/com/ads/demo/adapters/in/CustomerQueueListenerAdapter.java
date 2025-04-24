@@ -1,10 +1,9 @@
-package com.ads.demo.adapters.IN;
+package com.ads.demo.adapters.in;
 
 import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.facade.CustomerFacade;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
-import lombok.extern.slf4j.Slf4j;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

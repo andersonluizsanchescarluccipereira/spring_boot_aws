@@ -1,7 +1,7 @@
-package com.ads.demo.adapters.IN;
+package com.ads.demo.adapters.in;
 
-import com.ads.demo.adapters.IN.helpers.ControllerBaseHelper;
-import com.ads.demo.adapters.IN.helpers.CustomerResponseAdapterHelper;
+import com.ads.demo.adapters.in.helpers.ControllerBaseHelper;
+import com.ads.demo.adapters.in.helpers.CustomerResponseAdapterHelper;
 import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.dtos.CustomerResponseDTO;
 import com.ads.demo.application.facade.CustomerFacade;

@@ -1,4 +1,4 @@
-package com.ads.demo.adapters.IN.helpers;
+package com.ads.demo.adapters.in.helpers;
 
 import com.ads.demo.application.dtos.CustomerDTO;
 import com.ads.demo.application.models.entity.CustomerEntity;
